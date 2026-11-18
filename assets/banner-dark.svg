@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-label="Chun Jia (@ChunJIA614) - Software Development Banner">
+  <defs>
+    <linearGradient id="bg-dark" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090e1a" />
+      <stop offset="55%" stop-color="#0d1526" />
+      <stop offset="100%" stop-color="#0a192c" />
+    </linearGradient>
+
+    <radialGradient id="glow-blue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 55) rotate(25) scale(440 240)">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-emerald" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 260) rotate(-15) scale(420 240)">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-indigo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(680 140) scale(360 220)">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="name-accent" x1="210" y1="90" x2="520" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="55%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <linearGradient id="card-stroke" x1="728" y1="38" x2="1144" y2="262" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2e4469" />
+      <stop offset="50%" stop-color="#1f304d" />
+      <stop offset="100%" stop-color="#224e4d" />
+    </linearGradient>
+
+    <pattern id="dot-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.15" fill="#94a3b8" fill-opacity="0.18" />
+    </pattern>
+
+    <clipPath id="card-clip">
+      <rect x="0" y="0" width="1200" height="300" rx="18" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card-clip)">
+    <rect width="1200" height="300" fill="url(#bg-dark)" />
+    <rect width="1200" height="300" fill="url(#dot-grid)" />
+    <rect width="1200" height="300" fill="url(#glow-blue)" />
+    <rect width="1200" height="300" fill="url(#glow-indigo)" />
+    <rect width="1200" height="300" fill="url(#glow-emerald)" />
+
+    <!-- Subtle decorative arc lines -->
+    <path d="M -20 270 Q 320 215 650 285 T 1220 235" stroke="#38bdf8" stroke-opacity="0.12" stroke-width="1.5" fill="none" />
+    <path d="M -20 288 Q 360 245 710 296 T 1220 258" stroke="#34d399" stroke-opacity="0.09" stroke-width="1" fill="none" />
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="298.5" rx="17.25" stroke="#1e2d45" stroke-width="1.5" />
+
+  <!-- Top status badge -->
+  <rect x="56" y="44" width="272" height="30" rx="15" fill="#111d33" stroke="#243858" stroke-width="1" />
+  <circle cx="75" cy="59" r="7" fill="#3fb950" fill-opacity="0.22">
+    <animate attributeName="r" values="4.5;8.5;4.5" dur="2.6s" repeatCount="indefinite" />
+    <animate attributeName="fill-opacity" values="0.35;0.05;0.35" dur="2.6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="75" cy="59" r="4" fill="#3fb950" />
+  <text x="89" y="63.5" fill="#cbd5e1" font-family="ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" letter-spacing="0.3">TARUMT · Software Development</text>
+
+  <!-- Main Title -->
+  <text x="56" y="136" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-1">
+    <tspan fill="#f1f5f9">Hi, I'm </tspan><tspan fill="url(#name-accent)" font-weight="800">Chun Jia</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="56" y="175" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500">
+    <tspan fill="#7dd3fc" font-family="ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, monospace" font-size="15.5" font-weight="600">@ChunJIA614</tspan><tspan fill="#64748b">  ·  </tspan><tspan fill="#94a3b8">Building full-stack web apps, APIs, CV &amp; automation</tspan>
+  </text>
+
+  <!-- Focus pills -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">
+    <rect x="56" y="210" width="136" height="34" rx="9" fill="#101c31" stroke="#233757" stroke-width="1" />
+    <circle cx="75" cy="227" r="4" fill="#38bdf8" />
+    <text x="87" y="231.5" fill="#e2e8f0">Web &amp; PWAs</text>
+
+    <rect x="204" y="210" width="144" height="34" rx="9" fill="#101c31" stroke="#233757" stroke-width="1" />
+    <circle cx="223" cy="227" r="4" fill="#a78bfa" />
+    <text x="235" y="231.5" fill="#e2e8f0">Backend APIs</text>
+
+    <rect x="360" y="210" width="126" height="34" rx="9" fill="#101c31" stroke="#233757" stroke-width="1" />
+    <circle cx="379" cy="227" r="4" fill="#34d399" />
+    <text x="391" y="231.5" fill="#e2e8f0">AI &amp; Vision</text>
+
+    <rect x="498" y="210" width="136" height="34" rx="9" fill="#101c31" stroke="#233757" stroke-width="1" />
+    <circle cx="517" cy="227" r="4" fill="#fbbf24" />
+    <text x="529" y="231.5" fill="#e2e8f0">Automation</text>
+  </g>
+
+  <!-- Right Code Card -->
+  <rect x="728" y="38" width="416" height="224" rx="14" fill="#0b1220" fill-opacity="0.92" stroke="url(#card-stroke)" stroke-width="1.25" />
+  <line x1="728" y1="74" x2="1144" y2="74" stroke="#1e2d45" stroke-width="1" />
+
+  <!-- Window controls -->
+  <circle cx="750" cy="56" r="5" fill="#ff5f56" />
+  <circle cx="768" cy="56" r="5" fill="#ffbd2e" />
+  <circle cx="786" cy="56" r="5" fill="#27c93f" />
+  <text x="1124" y="60" text-anchor="end" fill="#64748b" font-family="ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="500">chunjia.profile.ts</text>
+
+  <!-- Code snippet -->
+  <g font-family="ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, monospace" font-size="12.5">
+    <text x="748" y="102"><tspan fill="#c084fc">const</tspan><tspan fill="#e2e8f0"> developer = </tspan><tspan fill="#94a3b8">{</tspan></text>
+    <text x="764" y="125"><tspan fill="#7dd3fc">name</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#86efac">"Chun Jia"</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="764" y="148"><tspan fill="#7dd3fc">base</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#86efac">"Malaysia · TARUMT"</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="764" y="171"><tspan fill="#7dd3fc">stack</tspan><tspan fill="#94a3b8">: [</tspan><tspan fill="#fde68a">"React"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#fde68a">"TS"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#fde68a">"C#"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#fde68a">"Python"</tspan><tspan fill="#94a3b8">],</tspan></text>
+    <text x="764" y="194"><tspan fill="#7dd3fc">focus</tspan><tspan fill="#94a3b8">: [</tspan><tspan fill="#fde68a">"PWA"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#fde68a">"APIs"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#fde68a">"CV"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#fde68a">"OCR"</tspan><tspan fill="#94a3b8">],</tspan></text>
+    <text x="764" y="217"><tspan fill="#7dd3fc">motto</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#86efac">"ship practical software"</tspan></text>
+    <text x="748" y="240"><tspan fill="#94a3b8">};</tspan></text>
+  </g>
+</svg>
